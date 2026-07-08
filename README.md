@@ -16,13 +16,13 @@ An interactive **Power BI dashboard** designed to analyze customer churn, revenu
 
 ---
 
-### 📌 Project Overview
+### Project Overview
 
 Customer churn is one of the biggest challenges in the telecom industry. This dashboard provides a comprehensive analysis of customer behavior, helping identify churn patterns, revenue distribution, customer demographics, and payment preferences. Interactive visualizations allow users to explore data dynamically and support strategic business decisions.
 
 ---
 
-### 🛠 Tools Used
+### Tools Used
 
 | Tool | Purpose |
 |------|----------|
@@ -33,7 +33,7 @@ Customer churn is one of the biggest challenges in the telecom industry. This da
 
 ---
 
-### 🧹 Data Preparation
+### Data Preparation
 
 The following preprocessing steps were performed:
 
@@ -48,7 +48,7 @@ The following preprocessing steps were performed:
 
 ---
 
-### 🔍 Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 The dashboard answers important business questions such as:
 
@@ -61,7 +61,7 @@ The dashboard answers important business questions such as:
 
 ---
 
-### 📈 DAX Measures
+### DAX Measures
 
 ```DAX
 Total Customers = COUNT(Customer[Customer ID])
@@ -82,7 +82,7 @@ DIVIDE([Churned Customers], [Total Customers]) * 100
 
 ---
 
-### 📊 Key Insights
+### Key Insights
 
 - Approximately **67%** of customers are retained, while **26%** have churned.
 - Customer distribution is nearly equal between male and female users.
@@ -94,7 +94,7 @@ DIVIDE([Churned Customers], [Total Customers]) * 100
 
 ---
 
-### 📸 Dashboard Preview
+### Dashboard Preview
 
 The dashboard provides interactive insights into:
 
